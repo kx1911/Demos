@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp',
+1 verbose cli   '-g' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of C:\Users\zhanghang04\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\zhanghang04\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'gulp', null ]
+7 verbose cache add spec gulp
+8 silly cache add parsed spec { raw: 'gulp',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'gulp',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed gulp@*
+10 verbose addNamed "*" is a valid semver range for gulp
+11 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+12 silly mapToRegistry name gulp
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/gulp
+16 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/gulp
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 15:40:45
+20 verbose request id 054abb97f971dd66
+21 http request GET https://registry.npmjs.org/gulp
+22 info retry will retry, error on last attempt: Error: read ECONNRESET
+23 info attempt registry request try #2 at 15:41:17
+24 http request GET https://registry.npmjs.org/gulp
+25 info retry will retry, error on last attempt: Error: read ECONNRESET
+26 info attempt registry request try #3 at 15:42:43
+27 http request GET https://registry.npmjs.org/gulp
+28 verbose stack Error: read ECONNRESET
+28 verbose stack     at exports._errnoException (util.js:746:11)
+28 verbose stack     at TCP.onread (net.js:559:26)
+29 verbose cwd D:\space\demos
+30 error Windows_NT 6.1.7601
+31 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp" "-g"
+32 error node v0.12.7
+33 error npm  v2.11.3
+34 error code ECONNRESET
+35 error errno ECONNRESET
+36 error syscall read
+37 error network read ECONNRESET
+37 error network This is most likely not a problem with npm itself
+37 error network and is related to network connectivity.
+37 error network In most cases you are behind a proxy or have bad network settings.
+37 error network
+37 error network If you are behind a proxy, please make sure that the
+37 error network 'proxy' config is set properly.  See: 'npm help config'
+38 verbose exit [ 1, true ]

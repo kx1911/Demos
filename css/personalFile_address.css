@@ -1,0 +1,244 @@
+.address-area .address-group {
+    padding: 10px 38px 20px;
+}
+
+.address-area .address-group .add-item {
+    float: left;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: 63px;
+    height: 63px;
+    border: 1px #b2b9c6 dashed;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #f8f9fb;
+}
+
+.address-area .address-group .add-item:hover {
+    background: #f3f5f9;
+    border: 1px dashed #c7ccd5;
+}
+
+.address-area .address-group .add-item .add-icon {
+    padding:10px 0 3px;
+    text-align: center;
+    color:#b4bdcd;
+    font-size: 20px;
+}
+
+.address-area .address-group .add-item .text {
+    color:#9399a5;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.address-area .address-group .group-cell {
+    border: 1px solid #d7dcdf;
+    border-radius: 3px;
+    width: 297px;
+    margin: 0 20px 14px 0;
+    position: relative;
+    float: left;
+}
+
+.address-area .address-group .group-cell .cell-display .top {
+    padding-left: 61px;
+    padding-right: 34px;
+    height: 38px;
+    border-bottom: 1px solid #e8ebf0;
+}
+
+.address-area .address-group .group-cell .cell-display .top .cell-type {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 16px;
+    top: 5px;
+}
+
+.address-area .address-group .group-cell .cell-display .top .edit {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 17px;
+    top: 11px;
+    background-position: -119px -424px;
+    cursor: pointer;
+}
+
+.address-area .address-group .group-cell .cell-display .top .logo-current {
+    background-position: -3px -450px;   
+}
+
+.address-area .address-group .group-cell .cell-display .top .logo-family {
+    background-position: -43px -450px;   
+}
+
+.address-area .address-group .group-cell .cell-display .top .title {
+    /*vertical-align: top;*/
+    color: #555;
+    font: 16px/16px 'Microsoft Yahei';
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.address-area .address-group .group-cell .cell-display .content,
+.address-area .address-group .group-cell .cell-edit .content {
+    background-color: #f9fafc;
+    color: #838894;
+    padding: 0px 16px 19px 16px;
+    word-break: break-all;
+}
+
+.address-area .address-group .group-cell .cell-display .content {
+    height: 100px;
+}
+
+
+.address-area .address-group .group-cell .cell-display .content.no-data {
+    text-align: center;
+    height: 112px;
+    font: 15px/80px 'Microsoft Yahei';
+}
+
+.address-area .address-group .group-cell .cell-display .content .firstline,
+.address-area .address-group .group-cell .cell-edit .content .firstline {
+    padding-bottom: 10px;
+}
+
+.address-area .address-group .group-cell .cell-display .content .firstline span {
+    font: 12px/12px 'Microsoft Yahei';
+    display: inline-block;
+    margin-right: 21px;
+    padding-top: 18px;
+}
+
+.address-area .address-group .group-cell .cell-display .content p.detail {
+    line-height: 20px;
+    font: 12px/20px 'Microsoft Yahei';
+}
+
+.address-area .address-group .group-cell .cell-edit .top {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 38px;
+    border-bottom: 1px solid #e8ebf0;
+}
+
+.address-area .address-group .group-cell .cell-edit .top .func {
+    display: inline-block;
+    font: 12px/20px 'Microsoft Yahei';
+    float: right;
+    border: 1px #000 solid;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+.address-area .modal .modal-dialog {
+    width: 572px;
+}
+
+.address-area .modal .label-title {
+    display: inline-block;
+    width: 58px;
+    text-align: right;
+    font-weight: bold;
+    font: 12px/30px "微软雅黑";
+    color: #333;
+}
+
+.address-area .modal .label-title,
+.modal .alert-msg {.address-area 
+    margin-top: 13px;
+}
+
+.address-area .modal .select {
+    display: inline-block;
+    margin-left: 14px;
+    text-align: left;
+    font: 12px/26px "微软雅黑";
+    color: #333;
+    margin-top: 13px;
+    height: 28px;
+    width: 89px;
+    border: 1px solid #cecfca;
+    border-radius: 3px;
+    padding:0 3px;
+    padding-right: 0;
+}
+
+.address-area .modal .select.addr-type-select {
+    width: 150px;
+}
+
+.address-area .modal .alert-msg {
+    color: red;
+    display: inline-block;
+    width: 105px;
+    margin-left: 10px;
+    text-align: left;
+    font: 12px/30px "微软雅黑";
+}
+
+.address-area .modal .addr-detail {
+    display: inline-block;
+    margin-left: 14px;
+    font: 12px/20px "微软雅黑";
+    color: #333;
+    margin-top: 13px;
+    width: 220px;
+    height: 48px;
+    border: 1px solid #cecfca;
+    border-radius: 3px;
+}
+
+.address-area .modal .modal-header {
+    background-color: #fff;
+}
+
+.address-area .modal .modal-body {
+    background-color: #f9fafc;
+}
+
+.address-area .modal .post-code {
+    display: inline-block;
+    margin-left: 14px;
+    text-align: left;
+    font: 12px/26px "微软雅黑";
+    color: #333;
+    margin-top: 13px;
+    height: 28px;
+    width: 89px;
+    border: 1px solid #cecfca;
+    border-radius: 3px;
+    padding:0 3px;
+}
+
+.address-area .modal .modal-footer {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px #e8ebf0 solid;
+    text-align: center;
+}
+
+.address-area .modal .btn {
+    margin-right: 0;
+}
+
+.address-area .modal .red {
+    border-color: red !important;
+}
+
+.address-area .modal .save {
+    background-color: #1f7cce;
+    border: 1px solid #266dab;
+}
+
+.address-area .modal .del[disabled] {
+    cursor: not-allowed;
+    pointer-events: auto;
+}

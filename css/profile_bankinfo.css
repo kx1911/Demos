@@ -1,0 +1,154 @@
+.emo-bankinfo{}
+.emo-bankinfo .bank-wrap{
+    border:1px solid #d8dde0;
+    border-radius: 3px;
+    width:300px;
+}
+.emo-bankinfo .bank-wrap .top{
+    height:37px;
+    border-bottom: 1px solid #e8ebf0;
+    position: relative;
+}
+.emo-bankinfo .bank-wrap .top .bank-edit{
+    position: absolute;
+    top:9px;
+    right:12px;
+    width:16px;
+    height:16px;
+    display: inline-block;
+    background-position: -133px -341px;
+}
+.emo-bankinfo .bank-wrap .top h3{
+    color:#555;
+    font:16px/36px 'Microsoft Yahei';
+    padding-left:17px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank{
+    width:27px;
+    height:27px;
+    margin-top:5px;
+    margin-right:10px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_ICBC-1{
+    background-position: 0 -1px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_BOB{
+    background-position: -34px -74px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_CBC-1{
+    background-position: -34px -1px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_BANKCOMM{
+    background-position: -68px -1px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_ABC-1{
+    background-position: 0 -38px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_CIB{
+    background-position: -34px -38px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_PSBC-1{
+    background-position: -68px -38px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_CBM{
+    background-position: 0 -74px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_ICBC-2{
+    background-position: 0 -1px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_CBC-2{
+    background-position: -34px -1px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_ABC-2{
+    background-position: 0 -38px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_OTHER{
+    background-position: 0 -110px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_BOC{
+    background-position: 0 -110px;
+}
+.emo-bankinfo .bank-wrap .top h3 i.icon_bank.icon_bank_PSBC-2{
+    background-position: -68px -38px;
+}
+
+.emo-bankinfo .bank-wrap .con{
+    padding:35px 20px;
+    background:#f9fafc;
+    color:#838894;
+}
+.emo-bankinfo .bank-wrap .con p{
+    font:14px/14px 'Microsoft Yahei';
+    margin-bottom:30px;
+}
+.emo-bankinfo .bank-wrap.has-bank .con{
+    text-align: center;
+}
+.emo-bankinfo .bank-wrap .con p.bank-num{
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.emo-bankinfo .bank-wrap.no-bank .con{
+    padding:35px 20px;
+    background:#f9fafc;
+}
+.emo-bankinfo .bank-wrap.no-bank .con p{
+    margin-bottom:10px;
+}
+.emo-bankinfo .bank-wrap.no-bank .con .act{
+    margin-top:20px;
+}
+.emo-bankinfo .bank-wrap.no-bank .con .act a{
+    color:#6dcafb;
+}
+
+.emo-bankinfo .bank-modal{}
+.emo-bankinfo .bank-modal .modal-body{}
+.emo-bankinfo .bank-modal .modal-body .tr{
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    font-weight: bold;
+    font: 12px/30px "微软雅黑";
+    color: #333333;
+}
+.emo-bankinfo .bank-modal .modal-body .tr .star{
+    color:#f00;
+}
+.emo-bankinfo .bank-modal .modal-body .tl{
+    display: inline-block;
+    margin-left: 14px;
+    text-align: left;
+    font: 12px/26px "微软雅黑";
+    color: #333333;
+    margin-top: 9px;
+    height: 28px;
+    width: 205px;
+    border: 1px solid #cecfca;
+    border-radius: 3px;
+    padding:0 3px;
+}
+.emo-bankinfo .bank-modal .modal-body select.tl{
+    padding-right: 0;
+}
+.emo-bankinfo .bank-modal .modal-body .tips{
+    margin-top: 10px;
+    padding: 18px 0px 22px 12px;
+    clear: both;
+    border-radius: 3px;
+    border: 1px dashed #e5e5e5;
+    background-color: #fafbf6;
+    font: 12px/24px "微软雅黑";
+    color: #333333;
+}
+.emo-bankinfo .bank-modal .modal-footer{
+    margin-top:0;
+    padding-top:10px;
+    text-align: center;
+}
+.emo-bankinfo .bank-modal .modal-footer .btn{
+    margin-right:0;
+}
+
+
+

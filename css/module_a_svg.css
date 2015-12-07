@@ -1,0 +1,13 @@
+.m-a-con-center .m-a-funnel-container text{
+    fill: #fff
+}
+
+.svg-new-staff,
+.svg-leaving-staff,
+.svg-expect-rate,
+.svg-left-rate,
+.svg-expect-key-staff,
+.svg-left-key-staff {
+    cursor: pointer;
+}
+

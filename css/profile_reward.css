@@ -1,0 +1,176 @@
+.reward{
+    padding: 0 50px 30px 30px;
+}
+
+.reward .act {
+    width: 80px;
+    text-align: right;
+}
+
+.reward .act a:hover {
+    color: #333;
+}
+
+.reward .reward-title {
+    margin-left: 110px;
+}
+
+.reward .reward-title table {
+    width: 100%;
+    table-layout: fixed;
+    background: #fff;
+}
+
+.reward .reward-title table th {
+    border: 1px solid #e5e5e5;
+    background-color: #fcfcfc;
+    height:37px;
+    line-height: 37px;
+    color:#666;
+    text-align: center;
+    padding:0;
+}
+
+.reward-item{
+    position: relative;
+}
+.reward-item .item-left{
+    float: left;
+    width:80px;
+    height: 100%;
+    color:#333;
+}
+
+.reward-item .item-left p{
+    position: absolute;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    font:12px/20px 'Microsoft Yahei';
+    color:#333;
+}
+
+.reward-item .item-con{
+    margin-left: 80px;
+    border-left: 1px #bcbfc8 solid;
+    position: relative;
+    padding: 15px 0 15px 0;
+}
+
+.reward-item .item-con.firstone:before {
+    content: " ";
+    display: block;
+    width: 1px;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: -1px;
+    top: 0;
+}
+
+.reward-item .item-con.firstone.packup-state {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.reward-item .item-con.lastone:after {
+    content: " ";
+    display: block;
+    width: 1px;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: -1px;
+    top: 50%;
+}
+
+.reward-item .item-con .item-title {
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    left: -85px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.reward-item .item-con .item-bar-circal{
+    background: #fff;
+    border:3px solid #55c08d;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    left:-5px;
+    width:9px;
+    height:9px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.reward-item .item-con .item-table{
+    margin-left:30px;
+    position: relative;
+}
+.reward-item .item-con .item-table table{
+    width:100%;
+    table-layout: fixed;
+    background: #fff;
+    border-left:3px solid #55c08d;
+}
+
+.reward-item .item-con.penalty .item-bar-circal{
+    border:3px solid #f2664f;
+}
+
+.reward-item .item-con.penalty .item-table table{
+    border-left: 3px solid #f2664f;
+}
+
+.reward-item .item-con .item-table table th {
+    background-color: #f9f9f9;
+}
+
+.reward-item .item-con .item-table .stone{
+    border:6px solid #fff;
+    border-right:6px solid #3bc0f1;
+    position: absolute;
+    top:50%;
+    margin-top:-6px;
+    left:-12px;
+}
+.reward-item .item-con .item-table table th,
+.reward-item .item-con .item-table table td{
+    border: 1px solid #e5e5e5;
+    height:37px;
+    line-height: 37px;
+    color:#666;
+    text-align: center;
+    padding:0;
+}
+.reward-item .item-con .item-table table td.act a{
+    color:#3bc0f1;
+}
+.reward .arrows{
+    border: 4px dashed transparent;
+    border-top: none;
+    border-bottom: 4px solid #a3a3a3;
+    display: inline-block;
+    transform-origin: 50% 30% 0px;
+    -moz-transform-origin: 50% 30% 0px;
+    -webkit-transform-origin: 50% 30% 0px;
+    -o-transform-origin: 50% 30% 0px;
+
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;  /* Firefox 4 */
+    -webkit-transition: all 0.3s;   /* Safari 和 Chrome */
+    -o-transition: all 0.3s;    /* Opera */
+}
+.reward .arrows.rotate{
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);     /* IE 9 */
+    -moz-transform:rotate(180deg);    /* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(180deg);  /* Opera */
+}

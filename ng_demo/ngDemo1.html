@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="costCtrl">
+    <input type="number" ng-model="firstName"><br>
+    <input type="number" ng-model="lastName"><br>
+    {{ (firstName * lastName) | currency }}
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('costCtrl', function($scope) {
+   $scope.quantity = 1;
+   $scope.price = 9.99;
+});
+</script>
+</body>
+</html>

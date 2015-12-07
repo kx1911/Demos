@@ -1,0 +1,23 @@
+@import "tipsy.css";
+
+/* tipsy tip tweak */
+.m-a-tipsytip {
+    text-align: left;
+    padding: 3px;
+}
+
+.m-a-tipsytip p {
+    line-height: 1.5;
+}
+
+.m-d-tip-head {
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.m-d-tip-highlight {
+    margin-top: 8px;
+    padding-top: 3px;
+    color: #d6b41f;
+    /*border-top:1px solid #fff;*/
+}

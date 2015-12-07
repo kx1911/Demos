@@ -1,0 +1,33 @@
+/**
+ * @module mhome.css
+ * @desc mhome.html页面
+ * @version 2015-07-29
+ */
+@import 'module_e.css';
+
+@import 'module_a.css';
+
+@import 'module_b.css';
+
+@import 'module_d_new.css';
+
+@import 'module_collect.css';
+
+@import 'module_c.css';
+
+@import 'module_guide.css';
+
+#header,
+#wrapper{
+    min-width: 1120px;
+}
+#contents {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#main {
+    padding: 20px 0;
+}
+
+
+

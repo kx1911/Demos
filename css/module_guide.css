@@ -1,0 +1,109 @@
+/* guide-wrap */
+.guide-wrap{position:absolute;top:0;right:0;bottom:0;left:0;z-index:999999;}
+.guide-wrap .guide-wrap-bg{position:absolute;top:0;right:0;bottom:0;left:0;background-color:#000;opacity:0.7;filter:alpha(opacity=70);}
+.guide-wrap .inner{position:relative;width:960px;height:900px;margin:50px auto 0;}
+
+
+.guide-wrap .item{
+    position: absolute;
+    left:0;
+    top:0;
+    width:960px;
+    display: none;
+}
+.guide-wrap .item .img-wrap{
+    text-align: center;
+}
+.guide-wrap .item .img-wrap img{
+    height:300px;
+}
+.guide-wrap .item .points{
+    text-align: center;
+    height:30px;
+}
+.guide-wrap .item .points li{
+    height:10px;
+    width:10px;
+    margin:10px 5px;
+    display: inline-block;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+.guide-wrap .item .points li.cur{
+    background: #fff;
+}
+.guide-wrap .item .desc-wrap{
+    width:400px;
+    margin:0 auto 45px;
+    background: #3086f2;
+    padding:20px;
+    color:#fff;
+}
+.guide-wrap .item .desc-wrap h3{
+    font:22px/22px 'Microsoft Yahei';
+}
+.guide-wrap .item .desc-wrap p.desc{
+    font:14px/20px 'Microsoft Yahei';
+    margin:20px 0;
+}
+.guide-wrap .item .btns-wrap{
+    height: 30px;
+    font:14px/30px 'Microsoft Yahei';
+}
+.guide-wrap .item .btns-wrap a{
+    color:#fff;
+}
+.guide-wrap .item .btns-wrap .btnClose,
+.guide-wrap .item .btns-wrap .btnRetry{
+    opacity: 0.5;
+    float: left;
+    margin-right:5px;
+}
+.guide-wrap .item .btns-wrap .btnPre,
+.guide-wrap .item .btns-wrap .btnNext{
+    float: right;
+    margin-left:5px;
+    display: inline;
+    text-align: center;
+    height:30px;
+    width:78px;
+    border:1px solid #fff;
+    border-radius: 3px;
+}
+.guide-wrap .item .btns-wrap .btnClose,
+.guide-wrap .item .btns-wrap .btnRetry,
+.guide-wrap .item .btns-wrap .btnPre,
+.guide-wrap .item .btns-wrap .btnNext{
+    text-decoration: none;
+}
+
+.guide-wrap .item .img-wrap img{
+    vertical-align: bottom;
+}
+.guide-wrap .item.item-0{
+    width:412px;
+    height:465px;
+    display: block;
+    left:50%;
+    margin-left:-232px;
+}
+.guide-wrap .item.item-0 .img-wrap img{
+    height:465px;
+}
+.guide-wrap .item.item-0 .btns-wrap{
+    position: absolute;
+    bottom:10px;
+    width:412px;
+    padding:0 16px;
+}
+.guide-wrap .item.item-0 .btns-wrap a{
+    opacity: 0;
+}
+.guide-wrap .item.item-0 .btns-wrap .btnStart{
+    float: right;
+    margin-left:5px;
+    display: inline;
+    text-align: center;
+    height:30px;
+    width:78px;
+}
